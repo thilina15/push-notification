@@ -16,7 +16,7 @@ self.addEventListener('push', function(e) {
       {action:'close',title:'Close',icon:'images/xmark.png'}
     ]
   };
-  e.waitUntil(self.registration.showNotification('hello shaakira!',options))
+  e.waitUntil(self.registration.showNotification('hello shaakira yooooooo!',options))
 });
 
 
